@@ -1,0 +1,120 @@
+body
+{
+    background-color: black;
+    font-family: "Overpass", sans-serif;
+}
+.div1 ,.div2
+{
+    background-color: hsl(216, 12%, 8%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  width: 400px;
+  height: auto;
+    border-radius: 10px;
+}
+.div1 h1,p,div
+{
+    margin: 30px;
+}
+
+.star
+{
+    margin-top: 20px;
+    background-color:hsl(213, 19%, 18%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    color:white;
+}
+.pr,.end
+{
+    color: hsl(216, 12%, 54%);
+}
+.numbers
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rate
+{
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color:hsl(216, 12%, 54%);
+    background-color:hsl(213, 19%, 18%);
+    border: none;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.rate:hover
+{   
+       color:white;
+       background-color: hsl(217, 12%, 63%);
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#submit
+{
+    width: 400px;
+    height: 40px;
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+}
+#submit:hover
+{
+    color:hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.div2
+{
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+#div2 *
+{
+    margin: 20px;
+}
+#div2 img
+{
+    width: 300px;
+    height: 200px;
+}
+.rated
+{
+    border-radius: 50px;
+    background-color:hsl(213, 19%, 18%);
+    color:hsl(25, 97%, 53%);
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+
+#div2{display: none;}
