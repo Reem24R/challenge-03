@@ -53,7 +53,7 @@
  
 
   <div class="rated">
-    You selected <span id="selected"></span> out of 5
+    You selected <span id="selected" style="display: inline-block; margin: 0 0.3rem;">1</span> out of 5
   </div>
 
 <h1>
@@ -65,10 +65,11 @@
   don’t hesitate to get in touch!
 
 </div>
+<button class="btn-submit" id="rate-again">Rate Again</button>
 </div>
   </div>
   <script>
-  let selected; // Declare the selected variable
+  let selected=document.querySelectorAll(".rate"); // Declare the selected variable
 
 function colorchange(rate1) {
   

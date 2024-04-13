@@ -118,3 +118,21 @@ h1
 
 
 #div2{display: none;}
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    /* padding: 0.625rem 2rem 0.5rem; */
+    /* width: 100%; */
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 2rem;
+    transition: 0.3s;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.2rem; */
+    font-size: 0.9rem;
+  }
+  
+  .btn-submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+  }
